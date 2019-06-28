@@ -1,0 +1,23 @@
+service:
+  name: serverless-template
+
+plugins:
+  - serverless-webpack
+  - serverless-offline
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+
+package:
+  individually: true
+
+custom:
+  webpack:
+    webpackConfig: ./webpack.config.js
+    packager: 'yarn'
+
+functions:
+  myHandler:
+    handler: src/handler.handle
+

@@ -1,0 +1,20 @@
+{
+  "name": "serverless-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Roland Olah",
+  "scripts": {
+    "invoke": "serverless invoke local -f myHandler"
+  },
+  "devDependencies": {
+    "serverless-offline": "^5.5.0",
+    "serverless-webpack": "^5.3.1",
+    "webpack": "^4.35.0",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "engines": {
+    "node": ">= 10.x",
+    "yarn": ">= 1.x"
+  }
+}
