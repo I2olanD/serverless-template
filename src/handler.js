@@ -1,1 +1,1 @@
-exports.handle = () => console.log('hello');
+export const handle = () => console.log('hello');
