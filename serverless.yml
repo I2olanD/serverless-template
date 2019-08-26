@@ -8,6 +8,7 @@ plugins:
 provider:
   name: aws
   runtime: nodejs10.x
+  includeModules: false
 
 package:
   individually: true
@@ -16,6 +17,7 @@ custom:
   webpack:
     webpackConfig: ./webpack.config.js
     packager: 'yarn'
+    includeModules: true
 
 functions:
   myHandler:
