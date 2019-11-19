@@ -6,6 +6,7 @@
   "author": "Roland Olah",
   "scripts": {
     "invoke": "serverless invoke local -f myHandler",
+    "test": "jest src",
     "build": "serverless webpack",
     "lint": "eslint --ignore-path .gitignore ."
   },
@@ -29,6 +30,8 @@
     "yarn": ">= 1.x"
   },
   "dependencies": {
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
     "source-map-support": "^0.5.13"
   }
 }
