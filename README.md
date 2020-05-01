@@ -2,7 +2,7 @@
 
 Make sure you have the following installed on your system:
 
-- [`Node.js`](http://nodejs.org/) ^10.x
+- [`Node.js`](http://nodejs.org/) ^12.x
 - [`yarn`](https://yarnpkg.com/) ^1.x
 
 ```sh
